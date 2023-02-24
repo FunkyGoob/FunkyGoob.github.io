@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="page-1" class="page">
+        <h1 id="title">Higher or Lower Number Guesser!</h1>
+        <h2 >Enter Your Name Below!</h2>
+        <input type="text" id="name" autocomplete="off" required>
+        <div></div>
+        <input type="submit" id="button" onclick="startGame()">
+    </div>
+    <div id="noPage2" class="page">
+        <h2> Current Challenger: <span id="player"></span></h2>
+        <h2> Score: <span id="score">0</span> </h2>
+        <h1>Will the next number be higher or lower?</h1>
+        <h1 id="number"></h1>
+        <button id="higher" onclick="buttonH()" >Higher</button>
+        <button id="lower" onclick="buttonL()">Lower</button>
+        <h2> Last Number: <span id="previous"></span></h2>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

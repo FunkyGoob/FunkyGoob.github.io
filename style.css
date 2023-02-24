@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* look for picture later */
+    background-color: aqua; 
+}
+#page-1{
+    display:block;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#page-1 h1{
+    font-size: 100px;
+}
+
+#page-1 h2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 60px;
+}
+#page-1 input{
+    font-size: 30px;
+}
+
+ #page-1 button{
+    font-size: 20px;
+}
+
+#noPage{
+    display: none;
+}
+#noPage2{
+    display: none;
+}
+#page-2{
+    display: block;
+}
+
+#button{
+
+   
+    background-color: #FFA7B4;
+    transition-duration: 0.4s;
+    margin-top: 20px;
+    
+}
+
+#button:hover{
+    box-shadow: 10px 5px 5px grey;
+    cursor: pointer;
+}
