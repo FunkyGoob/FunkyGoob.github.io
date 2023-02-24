@@ -1,5 +1,6 @@
 let firstNumber = 0;
 let secondNumber = 0;
+let highScore = 0;
 
 function startGame(){
     document.getElementById("page-1").id = "noPage";
