@@ -90,7 +90,7 @@ body{
   overflow: hidden;
   cursor: pointer;
   transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); 
-  -webkit-mask-image: -webkit-radial-gradient(white, black);
+  /* -webkit-mask-image: -webkit-radial-gradient(white, black); */
   font-size: 50px;
   top: 50%;
   left: 15%;
@@ -111,7 +111,7 @@ body{
   overflow: hidden;
   cursor: pointer;
   transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); 
-  -webkit-mask-image: -webkit-radial-gradient(white, black);
+  /* -webkit-mask-image: -webkit-radial-gradient(white, black); */
   font-size: 50px;
   top: 50%;
   right: 15%;
