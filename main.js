@@ -1,7 +1,11 @@
 let firstNumber = 0;
 let secondNumber = 0;
 let highScore = 0;
-
+document.getElementById("name").addEventListener("keypress", function(e){
+    if(e.key == "Enter"){
+        document.getElementById("button").click();
+    }
+})
 
 function startGame(){
     document.getElementById("page-1").id = "noPage";
