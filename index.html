@@ -10,8 +10,8 @@
 <body>
     <div id="page-1" class="page">
         <h1 id="title">Higher or Lower Number Guesser!</h1>
-        <h2>Between 1-50,000!</h2>
-        <h2 >Enter Your Name Below!</h2>
+        <h2>Between 1-50,000</h2>
+        <h2 >Enter Your Name Below</h2>
         <input type="text" id="name" autocomplete="off" required>
         <div></div>
         <input type="submit" id="button" onclick="startGame()">
@@ -31,9 +31,9 @@
         <h2 id="last"> Last Number: <span id="previous"></span></h2>
     </div>
     <div id="noPage3" class="page">
-        <h1>GAME OVER</h1>
-        <h2>Your score was: <span id="final"></span> </h2>
-        <h2>Good luck next time <span id="endPlayer"></span>!</h2>
+        <h1 class="over">GAME OVER</h1>
+        <h2 class="message">Good luck next time <span id="endPlayer"></span>!</h2>
+        <h2 class="finalScore">Your score was: <span id="final"></span> </h2>
         <button id="startOver" onclick="mainScreen()">Start Over?</button>
     </div>
     <script src="main.js"></script>
